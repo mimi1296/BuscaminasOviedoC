@@ -529,8 +529,6 @@ void jugar(tipoCasilla **mat,int f,int c,int minas){
 	char z;
 	int contM;
 	contM = minas;
-	printf("contador inicial: %i", contM);
-
 	while (i>0){
 		printf("\nIngrese FILA COLUMNA BANDERA \n");
 		scanf("%d %d %c",&x,&y,&z);
